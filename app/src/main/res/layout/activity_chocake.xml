@@ -11,10 +11,10 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-black"
-        android:text="Premium Chocolatos Ice"
-        android:textSize="25dp"
+        android:text="Chocolate Cakes With Love Cream"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,38 +24,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Rp.25.000"
+        android:text="Rp.40.000"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
         android:text="Leonants Restaurant"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="317dp"
         android:layout_height="209dp"
-        android:layout_marginTop="12dp"
-        android:text="Premium Chocolatos Ice racikan coklat pilihan yang menjadikan minuman ini sebagai pendamping menu utama. Dengan adanya minuman ini membuat anda semakin enjoy sebagai pendamping nongkrong anda"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Cake terlezat yang pernah ada. dengan pembuatan penuh kasih sayang yang menjadikan suasana makan bersama pasangan dengan makanan penutup ini semakin menjadi romantis. dengan balutan krim kasih sayang menjadikan kue ini laris di kalangan muda - mudi yang sedang dirundung asmara"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="312dp"
-        android:layout_height="166dp"
-        android:src="@drawable/escoklat"
+        android:id="@+id/imageView4"
+        android:layout_width="417dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/dessertcake" />
 </androidx.constraintlayout.widget.ConstraintLayout>

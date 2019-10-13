@@ -71,5 +71,7 @@ public class MainActivity extends AppCompatActivity  implements BottomNavigation
     }
 
     public void btn_handler_chocake(View view) {
+        Intent intent =  new Intent(this, chocakeActivity.class);
+        startActivity(intent);
     }
 }

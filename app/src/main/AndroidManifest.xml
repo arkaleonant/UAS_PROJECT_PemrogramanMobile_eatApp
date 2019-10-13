@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.coklatActivity"></activity>
+        <activity android:name=".activities.chocakeActivity"></activity>
+        <activity android:name=".activities.coklatActivity" />
         <activity android:name=".activities.nasgorActivity" />
         <activity android:name=".activities.WelcomeActivity">
             <intent-filter>
