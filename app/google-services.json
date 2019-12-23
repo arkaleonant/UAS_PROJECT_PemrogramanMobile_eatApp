@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "813114860415",
+    "firebase_url": "https://login-uas-eb73d.firebaseio.com",
+    "project_id": "login-uas-eb73d",
+    "storage_bucket": "login-uas-eb73d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813114860415:android:76bd12776b03b805d6f04a",
+        "android_client_info": {
+          "package_name": "id.co.malangcreative.eatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813114860415-k3dea8ferom26369gb168jcvlda5o2aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.co.malangcreative.eatapp",
+            "certificate_hash": "c34612e3aa927ac7f24a55ce68d2fd31cf95d275"
+          }
+        },
+        {
+          "client_id": "813114860415-a3u9t6dteb91nonapcvhe5r9dk7qa1co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsRlRVWoYkKQLxu7ZtlPlX8nhzv-U_Spc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813114860415-a3u9t6dteb91nonapcvhe5r9dk7qa1co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
