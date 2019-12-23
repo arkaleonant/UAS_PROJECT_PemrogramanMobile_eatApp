@@ -22,8 +22,8 @@ import id.co.malangcreative.eatapp.R;
 
 public class SignupActivity extends AppCompatActivity {
     public EditText email, password;
-    public Button signup;
-    TextView signin;
+    public Button BtnSignup;
+    TextView TVsignin;
     private FirebaseAuth mAuth;
 
     @Override
@@ -33,8 +33,10 @@ public class SignupActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         email = findViewById(R.id.et_email);
         password = findViewById(R.id.et_password);
-        signup = findViewById(R.id.btn_signup);
-        signup.setOnClickListener(new View.OnClickListener() {
+        BtnSignup = findViewById(R.id.btn_signup);
+        TVsignin = findViewById(R.id.tv_signin);
+
+        BtnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String emailId = email.getText().toString();
@@ -60,22 +62,16 @@ public class SignupActivity extends AppCompatActivity {
                                     }
                                 }
                             });
-                    signin.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            Intent i = new Intent(SignupActivity.this, LoginActivity.class);
-                            startActivity(i);
-                        }
-                    });
+
                 }
             }
         });
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = mAuth.getCurrentUser();
+        TVsignin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(SignupActivity.this, LoginActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }
