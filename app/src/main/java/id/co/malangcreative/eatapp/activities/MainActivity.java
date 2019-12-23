@@ -15,6 +15,7 @@ import id.co.malangcreative.eatapp.R;
 import id.co.malangcreative.eatapp.fragment.dessertFragment;
 import id.co.malangcreative.eatapp.fragment.drinkFragment;
 import id.co.malangcreative.eatapp.fragment.foodFragment;
+import id.co.malangcreative.eatapp.fragment.settingFragment;
 
 public class MainActivity extends AppCompatActivity  implements BottomNavigationView.OnNavigationItemSelectedListener{
 
@@ -51,6 +52,9 @@ public class MainActivity extends AppCompatActivity  implements BottomNavigation
             case R.id.action_dessert:
                 fragment = new dessertFragment();
                 break;
+            case R.id.action_setting:
+                fragment = new settingFragment();
+                break;
         }
         return loadFragment(fragment);
     }
@@ -72,6 +76,11 @@ public class MainActivity extends AppCompatActivity  implements BottomNavigation
 
     public void btn_handler_chocake(View view) {
         Intent intent =  new Intent(this, chocakeActivity.class);
+        startActivity(intent);
+    }
+
+    public void btn_handler_logout(View view) {
+        Intent intent =  new Intent(this, LogoutActivity.class);
         startActivity(intent);
     }
 }
